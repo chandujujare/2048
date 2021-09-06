@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="@dimen/dimen_5"
+    app:cardElevation="@dimen/dimen_5"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="match_parent">
+
+    <com.a2048.view.ui.GamerTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/dimen_10"
+        android:padding="@dimen/dimen_10"
+        android:background="@color/teal_200"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="@dimen/dimen_32"
+        app:gamefontStyle="calibriBold" />
+
+
+</androidx.cardview.widget.CardView>
